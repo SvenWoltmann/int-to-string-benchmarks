@@ -1,0 +1,347 @@
+# JMH version: 1.21
+# VM version: JDK 13.0.1, Java HotSpot(TM) 64-Bit Server VM, 13.0.1+9
+# VM invoker: C:\Program Files\Java\jdk-13.0.1\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: eu.happycoders.int2string.IntToStringBenchmark.option1
+
+# Run progress: 0,00% complete, ETA 00:33:20
+# Fork: 1 of 5
+# Warmup Iteration   1: 26795505,871 ops/s
+# Warmup Iteration   2: 26715065,147 ops/s
+# Warmup Iteration   3: 26818297,613 ops/s
+# Warmup Iteration   4: 27240880,575 ops/s
+# Warmup Iteration   5: 27671697,312 ops/s
+Iteration   1: 27632997,670 ops/s
+Iteration   2: 27755766,880 ops/s
+Iteration   3: 27768822,946 ops/s
+Iteration   4: 27690150,337 ops/s
+Iteration   5: 27594717,533 ops/s
+
+# Run progress: 5,00% complete, ETA 00:31:47
+# Fork: 2 of 5
+# Warmup Iteration   1: 27066271,999 ops/s
+# Warmup Iteration   2: 27529676,644 ops/s
+# Warmup Iteration   3: 27865660,907 ops/s
+# Warmup Iteration   4: 27743643,751 ops/s
+# Warmup Iteration   5: 27871652,440 ops/s
+Iteration   1: 27734488,519 ops/s
+Iteration   2: 27593047,608 ops/s
+Iteration   3: 27660560,470 ops/s
+Iteration   4: 27649339,494 ops/s
+Iteration   5: 27708361,505 ops/s
+
+# Run progress: 10,00% complete, ETA 00:30:06
+# Fork: 3 of 5
+# Warmup Iteration   1: 27435099,477 ops/s
+# Warmup Iteration   2: 27364221,578 ops/s
+# Warmup Iteration   3: 27647539,196 ops/s
+# Warmup Iteration   4: 27639531,968 ops/s
+# Warmup Iteration   5: 27658601,351 ops/s
+Iteration   1: 27686295,235 ops/s
+Iteration   2: 27651674,166 ops/s
+Iteration   3: 27699012,088 ops/s
+Iteration   4: 27577529,784 ops/s
+Iteration   5: 27585426,748 ops/s
+
+# Run progress: 15,00% complete, ETA 00:28:25
+# Fork: 4 of 5
+# Warmup Iteration   1: 27567199,311 ops/s
+# Warmup Iteration   2: 27427600,346 ops/s
+# Warmup Iteration   3: 27701133,543 ops/s
+# Warmup Iteration   4: 27656489,080 ops/s
+# Warmup Iteration   5: 27669087,318 ops/s
+Iteration   1: 27689240,186 ops/s
+Iteration   2: 27706371,925 ops/s
+Iteration   3: 27665158,759 ops/s
+Iteration   4: 27662638,875 ops/s
+Iteration   5: 27518869,760 ops/s
+
+# Run progress: 20,00% complete, ETA 00:26:45
+# Fork: 5 of 5
+# Warmup Iteration   1: 27587285,012 ops/s
+# Warmup Iteration   2: 27458017,133 ops/s
+# Warmup Iteration   3: 27687483,192 ops/s
+# Warmup Iteration   4: 27712846,641 ops/s
+# Warmup Iteration   5: 27817919,555 ops/s
+Iteration   1: 27817844,192 ops/s
+Iteration   2: 27825909,067 ops/s
+Iteration   3: 27805183,544 ops/s
+Iteration   4: 27534075,558 ops/s
+Iteration   5: 27410905,420 ops/s
+
+
+Result "eu.happycoders.int2string.IntToStringBenchmark.option1":
+  27664975,531 ±(99.9%) 72979,964 ops/s [Average]
+  (min, avg, max) = (27410905,420, 27664975,531, 27825909,067), stdev = 97426,163
+  CI (99.9%): [27591995,567, 27737955,494] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 13.0.1, Java HotSpot(TM) 64-Bit Server VM, 13.0.1+9
+# VM invoker: C:\Program Files\Java\jdk-13.0.1\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: eu.happycoders.int2string.IntToStringBenchmark.option2
+
+# Run progress: 25,00% complete, ETA 00:25:04
+# Fork: 1 of 5
+# Warmup Iteration   1: 27669983,561 ops/s
+# Warmup Iteration   2: 27450155,873 ops/s
+# Warmup Iteration   3: 27749170,923 ops/s
+# Warmup Iteration   4: 27725743,423 ops/s
+# Warmup Iteration   5: 27737242,799 ops/s
+Iteration   1: 27788524,364 ops/s
+Iteration   2: 27560574,675 ops/s
+Iteration   3: 27595167,327 ops/s
+Iteration   4: 27564668,011 ops/s
+Iteration   5: 27650870,506 ops/s
+
+# Run progress: 30,00% complete, ETA 00:23:24
+# Fork: 2 of 5
+# Warmup Iteration   1: 27690754,025 ops/s
+# Warmup Iteration   2: 27506983,726 ops/s
+# Warmup Iteration   3: 27857764,244 ops/s
+# Warmup Iteration   4: 27867313,655 ops/s
+# Warmup Iteration   5: 27919292,677 ops/s
+Iteration   1: 27634178,956 ops/s
+Iteration   2: 27888648,246 ops/s
+Iteration   3: 27784952,450 ops/s
+Iteration   4: 27760263,101 ops/s
+Iteration   5: 27768592,898 ops/s
+
+# Run progress: 35,00% complete, ETA 00:21:44
+# Fork: 3 of 5
+# Warmup Iteration   1: 27522961,901 ops/s
+# Warmup Iteration   2: 27383440,173 ops/s
+# Warmup Iteration   3: 27594152,913 ops/s
+# Warmup Iteration   4: 27593102,995 ops/s
+# Warmup Iteration   5: 27712451,229 ops/s
+Iteration   1: 27653597,305 ops/s
+Iteration   2: 27647782,296 ops/s
+Iteration   3: 27716900,637 ops/s
+Iteration   4: 27655655,352 ops/s
+Iteration   5: 27627341,346 ops/s
+
+# Run progress: 40,00% complete, ETA 00:20:03
+# Fork: 4 of 5
+# Warmup Iteration   1: 27527197,389 ops/s
+# Warmup Iteration   2: 27533376,237 ops/s
+# Warmup Iteration   3: 27797928,941 ops/s
+# Warmup Iteration   4: 27834950,937 ops/s
+# Warmup Iteration   5: 27736417,898 ops/s
+Iteration   1: 27661912,339 ops/s
+Iteration   2: 27688118,752 ops/s
+Iteration   3: 27676628,939 ops/s
+Iteration   4: 27733009,369 ops/s
+Iteration   5: 27702519,915 ops/s
+
+# Run progress: 45,00% complete, ETA 00:18:23
+# Fork: 5 of 5
+# Warmup Iteration   1: 27507065,752 ops/s
+# Warmup Iteration   2: 27324231,874 ops/s
+# Warmup Iteration   3: 27684362,430 ops/s
+# Warmup Iteration   4: 27703546,799 ops/s
+# Warmup Iteration   5: 27715553,833 ops/s
+Iteration   1: 27838007,778 ops/s
+Iteration   2: 27839478,511 ops/s
+Iteration   3: 27788248,794 ops/s
+Iteration   4: 27873974,652 ops/s
+Iteration   5: 27852782,148 ops/s
+
+
+Result "eu.happycoders.int2string.IntToStringBenchmark.option2":
+  27718095,947 ±(99.9%) 72015,771 ops/s [Average]
+  (min, avg, max) = (27560574,675, 27718095,947, 27888648,246), stdev = 96138,993
+  CI (99.9%): [27646080,176, 27790111,717] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 13.0.1, Java HotSpot(TM) 64-Bit Server VM, 13.0.1+9
+# VM invoker: C:\Program Files\Java\jdk-13.0.1\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: eu.happycoders.int2string.IntToStringBenchmark.option3
+
+# Run progress: 50,00% complete, ETA 00:16:43
+# Fork: 1 of 5
+# Warmup Iteration   1: 1713419,952 ops/s
+# Warmup Iteration   2: 1818644,846 ops/s
+# Warmup Iteration   3: 1816803,649 ops/s
+# Warmup Iteration   4: 1812516,333 ops/s
+# Warmup Iteration   5: 1813888,394 ops/s
+Iteration   1: 1814221,038 ops/s
+Iteration   2: 1813468,072 ops/s
+Iteration   3: 1813778,288 ops/s
+Iteration   4: 1810256,120 ops/s
+Iteration   5: 1811474,928 ops/s
+
+# Run progress: 55,00% complete, ETA 00:15:02
+# Fork: 2 of 5
+# Warmup Iteration   1: 1773384,357 ops/s
+# Warmup Iteration   2: 1871210,763 ops/s
+# Warmup Iteration   3: 1888275,444 ops/s
+# Warmup Iteration   4: 1888344,110 ops/s
+# Warmup Iteration   5: 1888194,471 ops/s
+Iteration   1: 1886121,145 ops/s
+Iteration   2: 1878111,630 ops/s
+Iteration   3: 1882444,233 ops/s
+Iteration   4: 1881812,061 ops/s
+Iteration   5: 1878905,618 ops/s
+
+# Run progress: 60,00% complete, ETA 00:13:22
+# Fork: 3 of 5
+# Warmup Iteration   1: 1679300,463 ops/s
+# Warmup Iteration   2: 1794308,286 ops/s
+# Warmup Iteration   3: 1795124,088 ops/s
+# Warmup Iteration   4: 1794946,995 ops/s
+# Warmup Iteration   5: 1794579,619 ops/s
+Iteration   1: 1795527,028 ops/s
+Iteration   2: 1789602,617 ops/s
+Iteration   3: 1783910,687 ops/s
+Iteration   4: 1771370,902 ops/s
+Iteration   5: 1776184,885 ops/s
+
+# Run progress: 65,00% complete, ETA 00:11:42
+# Fork: 4 of 5
+# Warmup Iteration   1: 1644174,787 ops/s
+# Warmup Iteration   2: 1756853,916 ops/s
+# Warmup Iteration   3: 1744789,094 ops/s
+# Warmup Iteration   4: 1741831,889 ops/s
+# Warmup Iteration   5: 1741573,241 ops/s
+Iteration   1: 1744230,508 ops/s
+Iteration   2: 1737024,898 ops/s
+Iteration   3: 1720822,704 ops/s
+Iteration   4: 1729491,712 ops/s
+Iteration   5: 1728137,658 ops/s
+
+# Run progress: 70,00% complete, ETA 00:10:01
+# Fork: 5 of 5
+# Warmup Iteration   1: 1687019,324 ops/s
+# Warmup Iteration   2: 1791038,626 ops/s
+# Warmup Iteration   3: 1787813,278 ops/s
+# Warmup Iteration   4: 1789898,213 ops/s
+# Warmup Iteration   5: 1788816,628 ops/s
+Iteration   1: 1790936,098 ops/s
+Iteration   2: 1790984,015 ops/s
+Iteration   3: 1793017,643 ops/s
+Iteration   4: 1793393,645 ops/s
+Iteration   5: 1793389,245 ops/s
+
+
+Result "eu.happycoders.int2string.IntToStringBenchmark.option3":
+  1800344,695 ±(99.9%) 37327,698 ops/s [Average]
+  (min, avg, max) = (1720822,704, 1800344,695, 1886121,145), stdev = 49831,409
+  CI (99.9%): [1763016,997, 1837672,393] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 13.0.1, Java HotSpot(TM) 64-Bit Server VM, 13.0.1+9
+# VM invoker: C:\Program Files\Java\jdk-13.0.1\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: eu.happycoders.int2string.IntToStringBenchmark.option4
+
+# Run progress: 75,00% complete, ETA 00:08:21
+# Fork: 1 of 5
+# Warmup Iteration   1: 27578580,184 ops/s
+# Warmup Iteration   2: 28603116,772 ops/s
+# Warmup Iteration   3: 28109119,451 ops/s
+# Warmup Iteration   4: 28062216,705 ops/s
+# Warmup Iteration   5: 27936932,432 ops/s
+Iteration   1: 28052211,566 ops/s
+Iteration   2: 28038128,518 ops/s
+Iteration   3: 28139071,555 ops/s
+Iteration   4: 28123932,911 ops/s
+Iteration   5: 28137078,590 ops/s
+
+# Run progress: 80,00% complete, ETA 00:06:41
+# Fork: 2 of 5
+# Warmup Iteration   1: 27584801,792 ops/s
+# Warmup Iteration   2: 28584029,409 ops/s
+# Warmup Iteration   3: 28147808,261 ops/s
+# Warmup Iteration   4: 28132064,840 ops/s
+# Warmup Iteration   5: 28150020,384 ops/s
+Iteration   1: 28185905,280 ops/s
+Iteration   2: 28189177,669 ops/s
+Iteration   3: 28205329,558 ops/s
+Iteration   4: 28160555,208 ops/s
+Iteration   5: 28146965,826 ops/s
+
+# Run progress: 85,00% complete, ETA 00:05:00
+# Fork: 3 of 5
+# Warmup Iteration   1: 27683878,938 ops/s
+# Warmup Iteration   2: 28568866,910 ops/s
+# Warmup Iteration   3: 28485212,879 ops/s
+# Warmup Iteration   4: 28525542,157 ops/s
+# Warmup Iteration   5: 28479309,617 ops/s
+Iteration   1: 28439756,449 ops/s
+Iteration   2: 28537174,197 ops/s
+Iteration   3: 28469124,261 ops/s
+Iteration   4: 28436976,757 ops/s
+Iteration   5: 28491261,790 ops/s
+
+# Run progress: 90,00% complete, ETA 00:03:20
+# Fork: 4 of 5
+# Warmup Iteration   1: 27568858,738 ops/s
+# Warmup Iteration   2: 28300701,213 ops/s
+# Warmup Iteration   3: 28121830,426 ops/s
+# Warmup Iteration   4: 28160064,733 ops/s
+# Warmup Iteration   5: 28117873,934 ops/s
+Iteration   1: 28168133,533 ops/s
+Iteration   2: 28232385,144 ops/s
+Iteration   3: 28226366,444 ops/s
+Iteration   4: 28147576,775 ops/s
+Iteration   5: 28140483,515 ops/s
+
+# Run progress: 95,00% complete, ETA 00:01:40
+# Fork: 5 of 5
+# Warmup Iteration   1: 27558075,345 ops/s
+# Warmup Iteration   2: 28544691,335 ops/s
+# Warmup Iteration   3: 28401362,573 ops/s
+# Warmup Iteration   4: 28442224,452 ops/s
+# Warmup Iteration   5: 28482051,757 ops/s
+Iteration   1: 28549752,297 ops/s
+Iteration   2: 28509933,114 ops/s
+Iteration   3: 28597329,521 ops/s
+Iteration   4: 28511298,725 ops/s
+Iteration   5: 28494792,364 ops/s
+
+
+Result "eu.happycoders.int2string.IntToStringBenchmark.option4":
+  28293228,063 ±(99.9%) 136987,361 ops/s [Average]
+  (min, avg, max) = (28038128,518, 28293228,063, 28597329,521), stdev = 182874,207
+  CI (99.9%): [28156240,702, 28430215,423] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:33:26
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                      Mode  Cnt         Score        Error  Units
+IntToStringBenchmark.option1  thrpt   25  27664975,531 ±  72979,964  ops/s
+IntToStringBenchmark.option2  thrpt   25  27718095,947 ±  72015,771  ops/s
+IntToStringBenchmark.option3  thrpt   25   1800344,695 ±  37327,698  ops/s
+IntToStringBenchmark.option4  thrpt   25  28293228,063 ± 136987,361  ops/s
+
+Process finished with exit code 0
