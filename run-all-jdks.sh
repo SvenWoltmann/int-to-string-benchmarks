@@ -29,9 +29,11 @@ cd "$(dirname "$0")"
 # comparable when every entry is a GA build.
 resolve_jdk() {
   local major="$1"
+  # `|| true`: grep exits 1 when nothing matches, and under `set -eo pipefail`
+  # that would abort the whole script instead of skipping the missing major.
   ls -1 "$SDKMAN_JAVA" 2>/dev/null \
     | grep -E "^${major}(\.[0-9]+)*-(open|zulu|tem|oracle)$" \
-    | sort -V | tail -1
+    | sort -V | tail -1 || true
 }
 
 echo "Building $JAR ..."
