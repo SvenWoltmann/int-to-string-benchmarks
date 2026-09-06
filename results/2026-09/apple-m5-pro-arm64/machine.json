@@ -1,0 +1,10 @@
+{
+  "id": "apple-m5-pro-arm64",
+  "cpu": "Apple M5 Pro",
+  "arch": "arm64",
+  "logicalCores": 18,
+  "platform": "darwin",
+  "osRelease": "25.5.0",
+  "memoryGiB": 64,
+  "recordedAt": "2026-08-31T21:08:14.726Z"
+}

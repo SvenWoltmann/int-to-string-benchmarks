@@ -1,0 +1,10 @@
+{
+  "id": "12th-gen-intel-core-i7-12700h-x64",
+  "cpu": "12th Gen Intel(R) Core(TM) i7-12700H",
+  "arch": "x64",
+  "logicalCores": 20,
+  "platform": "linux",
+  "osRelease": "6.18.33.2-microsoft-standard-WSL2",
+  "memoryGiB": 31,
+  "recordedAt": "2026-09-04T20:16:38.456Z"
+}
