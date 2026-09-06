@@ -2,3 +2,9 @@
 target
 **/gitignore
 dependency-reduced-pom.xml
+# Built jars and the JSON/logs of a series run. The measurements the articles
+# rely on live in the website repository (data/benchmarks/<machine>/); the
+# tracked results_java*.txt files are the 2019 record the articles link to.
+jars
+results/java*.json
+results/java*.txt
