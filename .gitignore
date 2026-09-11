@@ -8,3 +8,4 @@ dependency-reduced-pom.xml
 jars
 results/java*.json
 results/java*.txt
+.DS_Store
